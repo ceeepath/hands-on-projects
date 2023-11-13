@@ -72,12 +72,12 @@ Common issues and solutions.
 ```sh
 sudo chmod -r 755 /var/www/html
 ```
-- Web page may no display due to firewall issue. Be sure to open port 80 on the applied Security group rule.
-- It is encouraged to always restart apache service after macking any change to the root directory.
+- Web page may not display due to firewall issue. Be sure to open port 80 on the applied Security group rule.
+- It is encouraged to always restart apache service after making any change to the root directory.
 
 ## Security Considerations
 Security best practices and measures.
-- Ensure least privilige permission is applied. This task only require having inbound access via SSH and HTTP ports. Do not open more than these two ports.
+- Ensure least privilege permission is applied. This task only require having inbound access via SSH and HTTP ports. Do not open more than these two ports.
 - When running `chmod`, only grant required permissions. Avoid running `chmod 777`
 
 ## Acknowledgments
